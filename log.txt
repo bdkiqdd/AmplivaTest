@@ -1,0 +1,25 @@
+INFO:*********************Cleaning*********************
+INFO:Doing the address more clean
+INFO:Reviews has more than reviews, bad
+INFO:Doing my better
+INFO:****************Nulls information*****************
+INFO:url                               0
+address                           0
+name                              0
+online_order                      0
+book_table                        0
+rate                           1021
+votes                             0
+phone                            83
+location                          1
+rest_type                        32
+dish_liked                     4077
+cuisines                          8
+approx_cost(for two people)      14
+reviews_list                      0
+menu_item                         0
+listed_in(type)                   0
+listed_in(city)                   0
+contact number 1                  0
+contact number 2                  0
+dtype: int64
