@@ -1,13 +1,16 @@
+"""
+    Cleaning the data
+"""
 import logging
 import string
 from pathlib import Path
 
 import pandas as pd
 
-logging.basicConfig(filename = 'AmplivaTest/log.txt', format = '%(levelname)s:%(message)s'\
+logging.basicConfig(filename = 'log.txt', format = '%(levelname)s:%(message)s'\
                     , level = logging.INFO)
 
-def data_cleaning(file: str,work_dir: str = Path.cwd()):
+def data_cleaning(file: str,work_dir: str = Path.cwd()) -> pd.DataFrame:
     """
         Clear all our data
     """
@@ -24,3 +27,6 @@ def data_cleaning(file: str,work_dir: str = Path.cwd()):
                                                 .split("\r\n",expand=True).fillna("No info")
     logging.info("Nulls information".center(50,"*"))
     logging.info(df.isnull().sum())
+    logging.info("*" * 50 )
+    return df
+    

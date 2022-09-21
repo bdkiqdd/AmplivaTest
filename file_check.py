@@ -15,12 +15,11 @@ def print_dirr(dirr: str) -> list:
     return [f for f in listdir(dirr) if f.endswith(".csv")]
 
 
-def compar(old_dirr: list, new_dirr: list) -> str:
+def compar(old_dirr: list, new_dirr: list) -> list:
     """
         Compar two list of files
     """
-    f_ = [x for x in new_dirr if x not in old_dirr]
-    return f_
+    return [x for x in new_dirr if x not in old_dirr]
 
 
 def watcher(dirr: str, timer: int) -> str:
@@ -39,7 +38,7 @@ def watcher(dirr: str, timer: int) -> str:
         if len(diff) == 0:
             print(colorama.Fore.BLUE + "Not new" + colorama.Style.RESET_ALL)
             continue
-        elif getsize(dirr + '/' + diff[0]) == 0:        
+        if getsize(dirr + '/' + diff[0]) == 0:     
             print(colorama.Fore.BLUE + "Empty file" + colorama.Style.RESET_ALL)
             continue
         return diff[0]
