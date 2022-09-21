@@ -1,1 +1,7 @@
-Column: rate has some null valuesColumn: phone has some null valuesColumn: location has some null valuesColumn: rest_type has some null valuesColumn: dish_liked has some null valuesColumn: cuisines has some null valuesColumn: approx_cost(for two people) has some null values
+Column: phone has some null values
+Column: location has some null values
+Column: rest_type has some null values
+Column: dish_liked has some null values
+Column: cuisines has some null values
+Column: approx_cost(for two people) has some null values
+Column: number_rate has some null values

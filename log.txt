@@ -55,3 +55,66 @@ dtype: int64
 INFO:**************************************************
 INFO:**********Starting the output generation**********
 INFO:Generating the files!
+INFO:*********************Cleaning*********************
+INFO:Doing the address more clean
+INFO:Reviews has more than reviews, bad
+INFO:Doing my better
+INFO:*************Cleaning Result Metadata*************
+INFO:None
+INFO:**************************************************
+INFO:****************Nulls information*****************
+INFO:url                               0
+address                           0
+name                              0
+online_order                      0
+book_table                        0
+rate                              0
+votes                             0
+phone                            83
+location                          1
+rest_type                        32
+dish_liked                     4077
+cuisines                          8
+approx_cost(for two people)      14
+reviews_list                      0
+menu_item                         0
+listed_in(type)                   0
+listed_in(city)                   0
+contact number 1                  0
+contact number 2                  0
+number_rate                       0
+dtype: int64
+INFO:**************************************************
+INFO:**********Starting the output generation**********
+INFO:Generating the files!
+INFO:Success
+INFO:*********************Cleaning*********************
+INFO:Doing the address more clean
+INFO:Reviews has more than reviews, bad
+INFO:Doing my better
+INFO:*************** Nulls information ****************
+INFO:url                               0
+address                           0
+name                              0
+online_order                      0
+book_table                        0
+rate                              0
+votes                             0
+phone                            83
+location                          1
+rest_type                        32
+dish_liked                     4077
+cuisines                          8
+approx_cost(for two people)      14
+reviews_list                      0
+menu_item                         0
+listed_in(type)                   0
+listed_in(city)                   0
+contact number 1                  0
+contact number 2                  0
+number_rate                    1409
+dtype: int64
+INFO:**************************************************
+INFO:**********Starting the output generation**********
+INFO:Generating the files!
+INFO:Success

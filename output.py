@@ -24,7 +24,7 @@ def output_(df: pd.DataFrame,out_path: str = Path.cwd()):
     try:
         with open('bad_file.txt','w',encoding="UTF-8") as f_:
             for c in null_columns:
-                f_.write(f"Column: {c} has some null values")
+                f_.write(f"Column: {c} has some null values\n")
         f_.close()
     except Exception as ex:
         logging.error("Error to create the metadata file.\n %s", ex)
