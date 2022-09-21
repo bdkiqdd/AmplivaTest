@@ -7,6 +7,7 @@ __pycache__/
 *.so
 
 raw_data/
+test_folder/
 
 # Distribution / packaging
 .Python
